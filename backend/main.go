@@ -11,6 +11,8 @@ import (
 	"os"
 	"strings"
 	"time"
+
+	"github.com/joho/godotenv"
 )
 
 const clientIdentifier = "nlsearch 1.0.0"
@@ -181,6 +183,8 @@ func enableCORS(next http.HandlerFunc) http.HandlerFunc {
 }
 
 func main() {
+	godotenv.Load("../.env")
+	
 	config := Config{
 		SourcegraphURL:   getEnv("SOURCEGRAPH_URL", "https://sourcegraph.com"),
 		SourcegraphToken: getEnv("SOURCEGRAPH_TOKEN", ""),
