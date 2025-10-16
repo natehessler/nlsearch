@@ -1,6 +1,6 @@
 # NLSearch - Natural Language Code Search
 
-A web application that converts natural language queries into Sourcegraph search queries using the Deep Search API.
+A web application that converts natural language queries into Sourcegraph code search queries using Deep Search API.
 
 ## Features
 
