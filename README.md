@@ -20,7 +20,7 @@ A web application that converts natural language queries into Sourcegraph code s
 
 1. **Clone or navigate to the project:**
    ```bash
-   cd nlsearch-app
+   cd nlsearch
    ```
 
 2. **Set up environment variables:**
@@ -80,7 +80,7 @@ Configure the app using environment variables:
 ## Project Structure
 
 ```
-nlsearch-app/
+nlsearch/
 ├── backend/
 │   ├── main.go          # Go backend server with API endpoints
 │   └── go.mod           # Go module definition

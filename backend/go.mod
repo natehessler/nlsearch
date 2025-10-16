@@ -1,3 +1,3 @@
-module github.com/nlsearch-app/backend
+module github.com/nlsearch/backend
 
 go 1.23

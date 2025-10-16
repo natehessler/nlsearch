@@ -13,7 +13,7 @@ import (
 	"time"
 )
 
-const clientIdentifier = "nlsearch-app 1.0.0"
+const clientIdentifier = "nlsearch 1.0.0"
 
 type Config struct {
 	SourcegraphURL   string
