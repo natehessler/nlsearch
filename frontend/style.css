@@ -44,6 +44,14 @@ h1 {
     margin-bottom: 30px;
 }
 
+.search-label {
+    display: block;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
 #queryInput {
     width: 100%;
     padding: 20px;

@@ -29,17 +29,9 @@ A web application that converts natural language queries into Sourcegraph code s
    # Edit .env and add your Sourcegraph token
    ```
 
-   Or export directly:
+3. **Run the application:**
    ```bash
-   export SOURCEGRAPH_TOKEN="your_access_token_here"
-   export SOURCEGRAPH_URL="https://sourcegraph.com"  # optional
-   export PORT="8080"  # optional
-   ```
-
-3. **Run the backend:**
-   ```bash
-   cd backend
-   go run main.go
+   ./run.sh
    ```
 
 4. **Open your browser:**

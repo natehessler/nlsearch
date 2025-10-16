@@ -12,9 +12,10 @@
 <body>
     <div class="container">
         <h1>🔍 NLSearch</h1>
-        <p class="subtitle">Convert natural language to Sourcegraph search queries</p>
+        <p class="subtitle">Convert natural language to Sourcegraph code search queries</p>
 
         <div class="search-container">
+            <label for="queryInput" class="search-label">Create a code search query that finds:</label>
             <input 
                 type="text" 
                 id="queryInput" 
@@ -46,7 +47,7 @@
 
         <div id="loadingDiv" class="loading hidden">
             <div class="spinner"></div>
-            <p>Searching with Deep Search AI...</p>
+            <p>Generating valid code search query with Deep Search AI...</p>
         </div>
 
         <div id="resultDiv" class="hidden"></div>
